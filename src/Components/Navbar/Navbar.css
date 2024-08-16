@@ -1,0 +1,46 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg,  black, transparent);
+}
+.logo{
+    position: fixed;    
+    left: 10px;
+    top: 7px;
+    width: 60px;
+}
+.avatar{
+    position: fixed;
+    right: 10px;
+    top: 7px;
+    width: 15px;
+}
+.switch{
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.btns1{
+    text-decoration: none;
+    padding-left: 7px;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+.btns1:hover{
+    color: rgb(236, 0, 0, .95);
+}
+.btns{
+    text-decoration: none;
+    padding-left: 7px;
+    color: #fff;
+    font-size: 8px;
+    opacity: .7;
+    cursor: pointer;
+}
+.btns:hover{
+    color: rgb(255, 0, 0);
+}

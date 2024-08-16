@@ -1,0 +1,48 @@
+.row{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+.poster{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    max-height: 200px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.smallCard{
+    max-height: 100px;
+}
+.smallCard:hover{
+    transform: scale(1.1);
+}
+.tittle{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.name{
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* background-color: blueviolet; */
+}
+.name::-webkit-scrollbar{
+    display: none;
+}
+.movie-name{
+    font-size: 15px;  
+}
